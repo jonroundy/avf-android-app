@@ -1,0 +1,219 @@
+!SESSION 2013-01-09 15:46:36.576 -----------------------------------------------
+eclipse.buildId=v21.0.1-543035
+java.version=1.6.0_37
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/jonroundy/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/jonroundy/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-09 15:47:00.779
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.android.ide.eclipse.ddms 4 0 2013-01-09 15:47:01.264
+!MESSAGE DDMS files not found: /Applications/Development/eclipse/Eclipse.app/Contents/MacOS/platform-tools/adb /Applications/Development/eclipse/Eclipse.app/Contents/MacOS/tools/hprof-conv /Applications/Development/eclipse/Eclipse.app/Contents/MacOS/tools/traceview 
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-01-09 15:48:35.973
+!MESSAGE New Project Wizard failed
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:642)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:689)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	... 6 more
+Root exception:
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:689)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: OK
+Contains: /Users/jonroundy/Projects/AVF/avf-android-app overlaps the workspace location: /Users/jonroundy/Projects/AVF/avf-android-app
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-01-09 15:49:17.266
+!MESSAGE New Project Wizard failed
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:642)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:689)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	... 6 more
+Root exception:
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:689)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: OK
+Contains: /Users/jonroundy/Projects/AVF/avf-android-app overlaps the workspace location: /Users/jonroundy/Projects/AVF/avf-android-app
+!SESSION 2013-01-09 16:01:02.848 -----------------------------------------------
+eclipse.buildId=v21.0.1-543035
+java.version=1.6.0_37
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/jonroundy/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/jonroundy/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-09 16:01:16.196
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.resources 4 4 2013-01-09 16:01:33.333
+!MESSAGE Exception occurred while saving project preferences: /AvfProjectApp/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/jonroundy/Projects/AVF/avf-android-app/AvfProjectApp/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2951)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:441)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:350)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:268)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:790)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2013-01-09 16:01:33.334
+!MESSAGE A resource already exists on disk '/Users/jonroundy/Projects/AVF/avf-android-app/AvfProjectApp/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2013-01-09 16:01:33.335
+!MESSAGE Exception occurred while saving project preferences: /AvfProjectApp/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/jonroundy/Projects/AVF/avf-android-app/AvfProjectApp/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2951)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:443)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:350)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:268)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:790)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2013-01-09 16:01:33.335
+!MESSAGE A resource already exists on disk '/Users/jonroundy/Projects/AVF/avf-android-app/AvfProjectApp/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2013-01-09 16:01:33.344
+!MESSAGE Exception occurred while saving project preferences: /AvfProjectApp/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/jonroundy/Projects/AVF/avf-android-app/AvfProjectApp/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2951)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:445)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:350)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:268)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:790)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2013-01-09 16:01:33.345
+!MESSAGE A resource already exists on disk '/Users/jonroundy/Projects/AVF/avf-android-app/AvfProjectApp/.settings'.
+!SESSION 2013-01-09 19:24:15.010 -----------------------------------------------
+eclipse.buildId=v21.0.1-543035
+java.version=1.6.0_37
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/jonroundy/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/jonroundy/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-09 19:24:47.449
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2013-01-09 19:25:49.348 -----------------------------------------------
+eclipse.buildId=v21.0.1-543035
+java.version=1.6.0_37
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/jonroundy/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/jonroundy/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-01-09 19:26:10.397
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-09 19:26:13.282
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-01-09 19:26:43.368
+!MESSAGE pingUsageServer failed
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.welcome.AdtStartup.getVersion(AdtStartup.java:319)
+	at com.android.ide.eclipse.adt.internal.welcome.AdtStartup.pingUsageServer(AdtStartup.java:329)
+	at com.android.ide.eclipse.adt.internal.welcome.AdtStartup.access$2(AdtStartup.java:327)
+	at com.android.ide.eclipse.adt.internal.welcome.AdtStartup$4.run(AdtStartup.java:304)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2013-01-09 19:26:55.375 -----------------------------------------------
+eclipse.buildId=v21.0.1-543035
+java.version=1.6.0_37
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/jonroundy/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/jonroundy/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-01-09 19:27:00.709
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-09 19:27:03.647
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
